@@ -48,12 +48,11 @@ private:
 };
 
 void addTask(vector<Task>& taskList) {
-
     string description;
     int priority;
     string dueDate;
 
-    cout << "Please enter the details of the task: ";
+    cout << "Please enter the details of the task: "; 
     cin.ignore();
     getline(cin, description);
 

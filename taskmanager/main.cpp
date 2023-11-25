@@ -7,6 +7,7 @@
 
 // https://discord.gg/Cm4V4f6Njz
 // https://github.com/RangerNationXBL/Task-Manager
+// https://twitter.com/fullyinvoled
 
 
 #include <iostream>

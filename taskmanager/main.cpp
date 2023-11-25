@@ -6,6 +6,7 @@
 //Usage: Run the program, select and option, enter the task, due date and priority.
 
 // https://discord.gg/Cm4V4f6Njz
+// https://github.com/RangerNationXBL/Task-Manager
 
 
 #include <iostream>

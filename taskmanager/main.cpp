@@ -11,8 +11,8 @@
 
 
 #include <iostream> // Basic input and output
-#include <fstream> // File stream for opening, writing, and closing files
-#include <vector> // Data Structure
+#include <fstream>  // File stream for opening, writing, and closing files
+#include <vector>   // Data Structure
 using namespace std; // I was going to do this a different way, but decided to use it last minute.
 
 // The file will have several fields, maybe an addictional feature to eventually add it to a database.
@@ -115,6 +115,7 @@ void markAsComplete(vector<Task>& taskList) {
     }
 }
 
+// Display the task by passing in the vector.
 void displayTasks(const vector<Task>& taskList) {
     if (taskList.empty()){
         cout<< "No task to display. \n\n";
@@ -127,6 +128,7 @@ void displayTasks(const vector<Task>& taskList) {
     }
 }
 
+//Open the file to read the task list.
 void loadTasksFromFile(vector<Task>& taskList) {
     ifstream file("tasks.txt");
     if (file.is_open()){
